@@ -1,0 +1,11 @@
+/*Preloader*/
+#preloader { position:fixed; top:0; left:0; right:0; bottom:0; background:#f4f4f4; z-index:9999; }
+#status { z-index:28; position:absolute; color:#555 !important; top:50%; height:220px; width:100%; margin-top:-115px; }
+/* horizontal centering */
+.parent { width:230px; margin:0px auto; position:relative; height:220px; z-index:11 }
+.child { text-align:center; }
+/* vertical centering */
+.parent { display: table }
+.child { display: table-cell; vertical-align: middle; padding:0; }
+.child span { text-transform:uppercase; }
+/* End Preloader*/
